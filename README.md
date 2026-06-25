@@ -20,6 +20,7 @@ The implementation includes the complete Costas Loop architecture consisting of:
 A Costas Loop is a specialized Phase Locked Loop (PLL) widely used in digital communication systems for carrier recovery. It generates two orthogonal local carriers (cosine and sine), multiplies them with the received signal, filters the resulting components, and produces a phase error signal.
 
 This error signal is processed by a PI controller, which continuously adjusts the local oscillator until the phase difference approaches zero. Once locked, the receiver can coherently demodulate the transmitted BPSK data.
+
 <img width="655" height="658" alt="image" src="https://github.com/user-attachments/assets/11f8ab75-0f7c-4d98-a674-fb89295e6a61" />
 
 ---
